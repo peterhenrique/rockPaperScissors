@@ -22,8 +22,7 @@ h1 {
 .list {
     display: flex;
     flex-direction: row;
-    align-items: space-around;
-    justify-content:center;
+    justify-content:space-evenly;
 }
 
 ul{
@@ -62,4 +61,5 @@ ul{
 img {
     height: 300px;
     width: 300px;
+    
 }
