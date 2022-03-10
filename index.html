@@ -3,8 +3,43 @@
     <head>
         <title>rock paper scissors</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
+        <h1> 
+            Rock Paper Scissors
+        </h1>
+        <div class="Container">
+            <h2> 
+                Choose your weapon
+            </h2>
+
+            <div id="list">
+                <ul>
+                    <li><button id="rock"> <img src="./images/rock.png"></button></li>
+                    <li> <button id="paper"> <img src="./images/paper.png"> </button></li>
+                    <li> <button id="scissors"> <img src="./images/scissors-removebg-preview.png"> </button></li>
+                </ul>
+            </div>
+            <div class = "scoreboard">
+                <div class="playerScore">
+                    <h3> Player Score</h3>
+                    <div id="pScore">
+                        
+                    </div> 
+                </div>
+                <div class="pcScore">
+                    <h3> Computer score</h3>
+                    <div id="cScore">
+                        
+                    </div>
+                </div>
+            </div>
+            <button id="reset">Reset</button>           
+
+            
+
+
         <script src="./javascript/script.js"></script>
     </body>
 </html>
